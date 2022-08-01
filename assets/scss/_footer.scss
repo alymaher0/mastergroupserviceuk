@@ -1,0 +1,251 @@
+/*=======================Footer Area style===========================*/
+.footer-area {
+    position: relative;
+    margin-top: 220px;
+    padding-bottom: 40px;
+    background: $color6;
+
+    .footer-top {
+        position: relative;
+        width: 100%;
+        display: inline-flex;
+        background: $color3;
+        border-radius: 25px;
+        height: 220px;
+        align-items: center;
+        margin-top: -150px;
+        margin-bottom: 110px;
+
+        h4 {
+            width: 35%;
+            margin-left: 85px;
+            color: $color1;
+            font-weight: 400;
+        }
+
+        .btn-1{
+
+            position: relative;
+            margin-left: 50px;
+
+            i{
+                padding-right: 5px;
+            }
+
+            &:hover{
+                background: $color1;
+                color: $color3;
+            }
+        }
+
+        .btn-2{
+            margin-left: 30px;
+        }
+    }
+
+    .footer-logo-area {
+        position: relative;
+
+        img{
+            max-width: unset;
+            width: auto;
+        }
+
+        p{
+            padding: 25px 0;
+            padding-right: 5px;
+            color: $color1;
+        }
+
+        ul{
+            li{
+                height: 33px;
+                width: 33px;
+                border-radius: 6px;
+                background: $color1;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+                transition: .3s ease;
+
+                &:hover{
+                    background: $color3;
+
+                    a{
+                        color: $color1; 
+                    }
+                }
+
+                a{
+                    color: $color7;
+                    font-size: 15px;
+                    transition: .3s ease;
+                }
+
+            }
+        }
+
+    }
+
+    .footer-pages {
+        position: relative;
+        padding-left: 0px;
+        display: inline-flex;
+
+        .page-links {
+            position: relative;
+            margin-top: 25px;
+            margin-left: 35px;
+
+            h6{
+                color: $color1;
+                font-size: 20px;
+            }
+
+            ul{
+                margin-top: 40px;
+                li{
+                    display: block;
+                    margin-top: 15px;
+                    color: $color1;
+                    font-size: 16px;
+                    font-weight: 400;
+
+                    .con-icon{
+                        color: $color7;
+                        background: $color1;
+                        padding: 5px 8px;
+                        border-radius: 4px;
+                        margin-bottom: 5px;
+                        margin-right: 10px;
+                        display: inline-block;
+                    }
+
+                    a{
+                        color: $color1;
+                        font-weight: 400;
+
+                        i{
+                            font-size: 10px;
+                            padding-right: 5px;
+                        }
+
+                       
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+}
+.footer-area2 {
+    position: relative;
+    margin-top: 0;
+    padding-bottom: 40px;
+    background: #0F1D34;
+
+    .footer-top {
+        position: relative;
+        width: 100%;
+        display: inline-flex;
+        background: $color2;
+        border-radius: 0;
+        align-items: center;
+        margin-top: 0;
+        padding: 40px 50px;
+        height: unset;
+        margin-bottom: 110px;
+
+        .ft-social-link {
+            position: relative;
+            width: 60%;
+            
+        ul{
+            li{
+                height: 50px;
+                width: 50px;
+                border-radius: 0px;
+                background: $color1;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+                transition: .3s ease;
+
+                &:hover{
+
+                    a{
+                        color: $color6; 
+                    }
+                }
+
+                a{
+                    color: $color7;
+                    font-size: 22px;
+                    transition: .3s ease;
+                }
+
+            }
+        }
+        }
+
+        .ft-s-input {
+            position: relative;
+            width: 40%;
+            .input-group {
+                .input-group-text {
+                    margin-bottom: 0;
+                    padding-right: 0;
+                    font-size: 26px;
+                    font-weight: 400;
+                    background-color: #ffffff;
+                    border: 0;
+                    border-radius: 0;
+                    display: inline-flex;
+                    cursor: pointer;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0 20px;
+
+                    i.flaticon-right-arrow {
+                        color: #ff662a8c;
+                    }
+                    i.flaticon-email {
+                        color: #515151a3;
+                    }
+                }
+             .form-control {
+                    height: 60px;
+                    padding: 25px 10px;
+                    font-size: 16px;
+                    color: #515151a3;
+                    background-color: #ffffff;
+                    background-clip: padding-box;
+                    border: 0;
+                    border-radius: 0;
+                }
+            }
+        }
+
+  
+    }
+}
+footer{
+    background: $color6;
+
+    p{
+        color: $color1;
+        border-top: 1px solid $color1;
+        padding: 40px 0px;
+
+        a{
+            color: $color1;
+        }
+    }
+}
+/*=======================Footer Area style===========================*/

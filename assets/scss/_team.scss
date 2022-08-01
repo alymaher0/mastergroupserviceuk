@@ -1,0 +1,84 @@
+/*=========================Team Style Start====================*/
+
+.our-team {
+    position: relative;
+    margin-top: 140px;
+
+    .team-top {
+        position: relative;
+        margin-bottom: 50px;
+
+        span {
+            position: relative;
+            color: $color2;
+            font-family: $secondaryFont;
+            font-weight: 500;
+            font-size: 18px;
+            padding-left: 60px;
+            line-height: 28px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 40px;
+                height: 1px;
+                background: $color2;
+                top: 10px;
+                left: 5px;
+            }
+        }
+
+        .btn-1 {
+            background: $color5;
+            color: $color1;
+            margin-left: auto;
+            display: table;
+            margin-top: -70px;
+        }
+    }
+
+    .team-member {
+        text-align: center;
+        margin: 15px 0;
+        -webkit-box-shadow: 20px 20px 60px 0px rgba(0,0,1,0.05);
+        -moz-box-shadow: 20px 20px 60px 0px rgba(0,0,1,0.05);
+        box-shadow: 20px 20px 60px 0px rgba(0,0,1,0.05);
+
+
+        .ieam-text {
+            padding: 35px 0px 20px;
+
+            ul {
+                position: relative;
+                margin-top: -53px;
+                margin-bottom: 15px;
+                li{
+                    height: 33px;
+                    width: 33px;
+                    background: #ECF3FF;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 10px;
+                    transition: .3s ease;
+
+                    &:hover{
+
+                        background: $color5;
+
+                        a{
+                            color: $color1;
+                        }
+                    }
+
+                    a {
+                        color: #8F9297;
+                        font-size: 15px;
+                        transition: .3s ease;
+                    }
+                }
+            }
+        }
+    }
+}
+/*=========================Team Style End====================*/

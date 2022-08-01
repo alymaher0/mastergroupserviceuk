@@ -1,0 +1,501 @@
+/*==========================Protect Area=========================*/
+
+.protect {
+    position: relative;
+    background: #F2FAFF;
+    margin-top: 160px;
+    padding: 220px 0px 140px;
+
+
+    .protect-img {
+        width: calc(100% + 25%);
+        margin-left: -40%;
+
+        &::before{
+            position: absolute;
+            content: '';
+            background: url(../img/about/protect-bg.png);
+            width: 125%;
+            height: 100%;
+            top: -10%;
+            left: -50%;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+
+    .protect-content {
+        position: relative;
+
+        h2 {
+            font-size: 46px;
+            font-weight: 500;
+        }
+        p {
+            padding-top: 20px;
+            padding-right: 65px;
+        }
+
+        ul{
+            margin-top: 20px;
+            li{
+                color: $color6;
+                font-size: 15px;
+                font-weight: 600;
+                display: block;
+                line-height: 40px;
+
+                i{
+                    font-size: 18px;
+                    margin-right: 10px;
+                    color: $color4;
+                }
+            }
+        }
+
+        .protect-links {
+            position: relative;
+            display: inline-flex;
+            width: 100%;
+            margin-top: 40px;
+            align-items: center;
+
+            .single-link {
+                position: relative;
+                width: 240px;
+
+                a.cal-num{
+                    position: relative;
+                        color: $color6;
+                        font-weight: 700;
+                        i{
+                            transition: .3s ease;
+                            border-radius: 50%;
+                            background: $color1;
+                            padding: 20px 22px;
+                            font-size: 20px;
+                            color: $color3;
+                            font-weight: 600;
+                            margin-right: 10px;
+                            -webkit-box-shadow: 7px 0px 20px 0px rgba(1, 0, 0, 0.2);
+                            -moz-box-shadow:    7px 0px 20px 0px rgba(1, 0, 0, 0.2);
+                            box-shadow:         7px 0px 20px 0px rgba(1, 0, 0, 0.2);
+
+                            &:hover{
+                                background: $color3;
+                                color: $color1;
+                            }
+                        }
+
+                        &:last-child{
+                          position: relative;
+
+                          &:hover{
+
+                              i{
+                               
+                              }
+                          }
+                        }
+                }
+          
+                .btn-3{
+                    position: relative;
+                    border-radius: 6px;
+                    color: $color1;
+
+        
+                    &:hover{
+        
+                        i{
+                            padding-left: 5px;
+                        }
+                    }
+                    i{
+                        transition: .3s ease;
+                    }
+        
+                }
+
+            }
+        }
+    }
+
+}
+
+/*==========================Protect Area=========================*/
+
+/*==============================About Us===============================*/
+
+.about-us {
+    position: relative;
+    margin-top: 180px;
+    padding-bottom: 100px;
+
+    .about-img {
+        position: relative;
+        width: 110%;
+        margin-left: -40%;
+
+        &::before{
+            position: absolute;
+            content: '';
+            background: url(../img/about/about-bg.jpg);
+            height: 115%;
+            width: 110%;
+            left: -20%;
+            top: 35%;
+            z-index: -1;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        &::after{
+            position: absolute;
+            content: '';
+            background: url(../img/about/about2.png);
+            height: 460px;
+            width: 300px;
+            right: -15%;
+            bottom: -38%;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+    }
+    .experience {
+        position: relative;
+        background: #fff;
+        -webkit-box-shadow: 20px 20px 62px 0px rgba(19,5,0,0.15);
+        -moz-box-shadow: 20px 20px 62px 0px rgba(19,5,0,0.15);
+        box-shadow: 20px 20px 62px 0px rgba(19,5,0,0.15);
+        width: 174px;
+        padding: 26px;
+        border-radius: 20px;
+        padding-right: 0;
+        margin-top: -80px;
+        
+        img{
+            max-width: unset;
+            width: auto;
+        }
+
+        h5{
+            padding-top: 15px;
+        }
+    }
+
+    .about-content {
+        position: relative;
+
+        span{
+            font-size: 18px;
+            padding-left: 50px;
+            font-weight: 500;
+            color: $color4;
+            font-family: $secondaryFont;
+
+            &::before{
+                content: '';
+                position: absolute;
+                background: $color4;
+                left: 0;
+                top: 15px;
+                height: 1px;
+                width: 35px;
+            }
+        }
+
+        h2{
+            margin-top: 20px;
+        }
+        p{
+            margin-top: 25px;
+            margin-bottom: 20px;
+        }
+
+        .ab-service {
+            position: relative;
+            display: inline-flex;
+            margin-top: 10px;
+
+            img{
+                max-width: unset;
+                width: auto;
+            }
+
+            h5 {
+                margin-top: 10px;
+                margin-left: 20px;
+            }
+
+        }
+
+        .about-links {
+            position: relative;
+            display: inline-flex;
+            width: 100%;
+            margin-top: 30px;
+            align-items: center;
+
+            .single-link {
+                position: relative;
+                width: 240px;
+
+                a.cal-num{
+                    position: relative;
+                        color: $color6;
+                        font-weight: 600;
+                        font-family: $primaryFont;
+                        i{
+                            transition: .3s ease;
+                            border-radius: 50%;
+                            background: $color1;
+                            padding: 20px 22px;
+                            font-size: 20px;
+                            color: $color2;
+                            font-weight: 600;
+                            margin-right: 10px;
+                            -webkit-box-shadow: 7px 0px 20px 0px rgba(1, 0, 0, 0.2);
+                            -moz-box-shadow:    7px 0px 20px 0px rgba(1, 0, 0, 0.2);
+                            box-shadow:         7px 0px 20px 0px rgba(1, 0, 0, 0.2);
+
+                            &:hover{
+                                background: $color2;
+                                color: $color1;
+                            }
+                        }
+
+                        &:last-child{
+                          position: relative;
+
+                          &:hover{
+
+                              i{
+                               
+                              }
+                          }
+                        }
+                }
+          
+                .btn-3{
+                    position: relative;
+                    border-radius: 6px;
+                    background: $color2;
+                    color: $color1;
+                    
+
+        
+                    &:hover{
+        
+                        i{
+                            padding-left: 5px;
+                        }
+                    }
+                    i{
+                        transition: .3s ease;
+                    }
+        
+                }
+
+            }
+        }
+
+
+
+    }
+}
+
+.about-us2 {
+    position: relative;
+
+
+    .extra-features{
+        position: relative;
+        -webkit-box-shadow: 0px 50px 99px 0px rgba(0,0,1,0.03);
+        -moz-box-shadow: 0px 50px 99px 0px rgba(0,0,1,0.03);
+        box-shadow: 0px 50px 99px 0px rgba(0,0,1,0.03);
+        border-radius: 21px;
+        margin-top: -90px;
+        background: $color1;
+        margin-bottom: 140px;
+    
+
+        .single-ef{
+            position: relative;
+            text-align: center;
+            padding: 40px 0;
+
+            &::before{
+                position: absolute;
+                content: '';
+                right: 0;
+                top: 75px;
+                width: 1px;
+                height: 30px;
+                background: $color7;
+                opacity: .6;
+            }
+
+
+            span{
+                
+                position: relative;
+                font-size: 60px;
+                margin-bottom: 70px;
+                margin-left: -50px;
+                display: block;
+
+            }
+
+            .icon-1 {
+
+                position: relative;
+
+                &::before {
+                    position: absolute;
+                    content: "\e905";
+                }
+            }
+            .icon-2 {
+
+                position: relative;
+
+                &::before {
+                    position: absolute;
+                    content: "\e901";
+                }
+            }
+            .icon-3 {
+
+                position: relative;
+
+                &::before {
+                    position: absolute;
+                    content: "\e900";
+                }
+            }
+
+
+        }
+
+        .single-ef2{
+            position: relative;
+
+            &::before{
+                display: none;
+            }
+        }
+    }
+
+    .about-img {
+        position: relative;
+        width: 160%;
+        margin-left: -35%;
+        margin-top: -12%;
+    }
+    
+
+    .about-content {
+        position: relative;
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 48px;
+            line-height: 60px;
+        }
+
+        .ab-service {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            margin-top: 10px;
+            width: 100%;
+
+            .abs-img {
+                position: relative;
+                -webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,1,0.07);
+                -moz-box-shadow: 10px 10px 30px 0px rgba(0,0,1,0.07);
+                box-shadow: 10px 10px 30px 0px rgba(0,0,1,0.07);
+                height: 70px;
+                width: 70px;
+                padding: 10px;
+                margin-right: 30px;
+
+                img {
+                    max-width: 100%;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+        }
+
+        .about-links {
+            position: relative;
+            display: inline-flex;
+            width: 100%;
+            margin-top: 50px;
+            align-items: center;
+
+            .single-link {
+                position: relative;
+
+                a.cal-num{
+                        position: relative;
+                        color: $color6;
+                        font-weight: 600;
+                        font-family: $primaryFont;
+                        font-size: 18px;
+                        font-weight: 700;
+                        i{
+                            transition: .3s ease;
+                            border-radius: 50%;
+                            background: $color1;
+                            padding: 20px 22px;
+                            font-size: 20px;
+                            color: $color3;
+                            font-weight: 600;
+                            margin-right: 10px;
+                            -webkit-box-shadow: 7px 0px 20px 0px rgba(1, 0, 0, 0.2);
+                            -moz-box-shadow:    7px 0px 20px 0px rgba(1, 0, 0, 0.2);
+                            box-shadow:         7px 0px 20px 0px rgba(1, 0, 0, 0.2);
+
+                            &:hover{
+                                background: $color2;
+                                color: $color1;
+                            }
+                        }
+
+                        &:last-child{
+                          position: relative;
+                          margin-left: 35px;
+
+                        }
+                }
+          
+                .btn-3{
+                    position: relative;
+                    border-radius: 6px;
+                    background: $color3;
+                    color: $color1;
+                    transition: .3s ease;
+                    
+
+        
+                    &:hover{
+                      background: $color2;
+                    }
+        
+                }
+
+            }
+        }
+
+
+
+    }
+}
+/*==============================About Us===============================*/

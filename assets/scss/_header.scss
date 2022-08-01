@@ -1,0 +1,158 @@
+/*==================================Header Style Start========================*/
+.header-top {
+    position: relative;
+    background: $color2;
+    padding: 18px 0;
+
+    ul{
+        li{
+            position: relative;
+            font-family: $secondaryFont;
+            color: $color1;
+            margin-right: 50px;
+
+         
+
+            &::before{
+                position: absolute;
+                content: '';
+                width: 1px;
+                top: 3px;
+                height: 15px;
+                background: $color1;
+                right: -27px;
+            }
+
+            &:last-child{
+                position: relative;
+                &::before{
+                    position: absolute;
+                    content: '';
+                    width: 0px;
+                }
+            }
+
+            i{
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+
+header.header-area {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 25px 0;
+    z-index: 1;
+
+    .logo-wrapper {
+        position: relative;
+        z-index: 1;
+
+        img{
+            max-width: unset;
+            width: auto;
+        }
+    }
+
+    .btn-1{
+        position: relative;
+        transition: .3s ease !important;
+        margin-left: 25px;
+        display: inline-flex;
+
+       i{
+        padding-right: 8px;
+        font-size: 18px;
+       }
+
+        &:hover{
+            background: $color1;
+        }
+    }
+}
+
+header.header2 {
+    position: relative;
+    z-index: 1;
+
+    .sm-mint a {
+        color: $color7 !important;
+    }
+    .sm-mint a .sub-arrow {
+        border-color: $color7 transparent transparent transparent;
+    }
+
+    .btn-1{
+        transition: .3s ease !important;
+        border-color: $color2;
+        color: #ff662a;
+
+       i{
+        padding-left: 8px;
+       }
+
+        &:hover{
+            background: $color2;
+            color: $color1 !important;
+        }
+    }
+}
+
+header.header3{
+    position: absolute;
+
+    .sm-mint {
+  
+        a.btn-1{
+            color: $color2 !important;
+
+            &:hover{
+                color: $color1 !important;
+            }
+          
+        }
+    }
+    
+}
+
+.hexa-nav {
+    position: relative;
+    display: inline-flex;
+    float: right;
+}
+
+header.header2.nav-fixed {
+    background: $color1;
+
+    .sm-mint {
+        a {
+            color: $color7 !important;
+        }
+
+        a.btn-1{
+        
+            &:hover{
+                color: $color1 !important;
+            }
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+
+}
+
+
+/*==================================Header Style End========================*/

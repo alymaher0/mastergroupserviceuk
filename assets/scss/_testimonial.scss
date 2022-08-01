@@ -1,0 +1,484 @@
+/*===================Testimonial style======================*/
+.testimonial {
+    position: relative;
+    margin-top: 140px;
+
+    .cp-top {
+        position: relative;
+        width: 100%;
+        margin-bottom: 50px;
+
+        .top-bg-color {
+            background: $color3;
+            height: 8px;
+            width: 40px;
+            border-radius: 62px;
+            margin-bottom: 20px;
+        }
+
+        .btn-1{
+            position: absolute;
+            color: $color3;
+            top: 40%;
+            right: 0;
+            transition: .3s ease;
+            border-color: $color3;
+
+            &:hover{
+
+                background: $color3;
+                color: $color1;
+
+                i{
+                    color: $color1;
+                }
+
+            }
+
+            i{
+                padding-left: 5px;
+            }
+
+        }
+    }
+
+    .testimonial-slide{
+        position: relative;
+
+        button.owl-prev {
+            bottom: 10%;
+            right: 8%;
+            position: absolute;
+            font-size: 30px !important;
+            padding: 6px 20px !important;
+            border-radius: 22px;
+            color: $color6 !important;
+            transition: .3s ease;
+
+            &:hover{
+
+            background: $color3 !important;
+            color: $color1 !important;
+
+            }
+        }
+
+        button.owl-next {
+            position: absolute;
+            font-size: 30px !important;
+            bottom: 10%;
+            right: 2%;
+            transition: .3s ease;
+            padding: 6px 20px !important;
+            border-radius: 22px;
+            color: $color6 !important;
+
+            &:hover{
+                
+                background: $color3 !important;
+                color: $color1 !important;
+                
+                }
+        }
+
+        .client-feedback {
+            position: relative;
+            display: inline-flex;
+            padding: 0px 2px;
+
+
+            .cf-img {
+                position: relative;
+
+                img{
+                    max-width: unset;
+                    width: auto;
+                }
+            }
+
+            .cf-text {
+
+                position: relative;
+                padding: 55px;
+                height: calc(100% - 75%);
+                margin-top: auto;
+                background: $color1;
+                -webkit-box-shadow: 0px 40px 99px 0px rgba(0,0,1,0.07);
+                -moz-box-shadow: 0px 40px 99px 0px rgba(0,0,1,0.07);
+                box-shadow: 0px 40px 99px 0px rgba(0,0,1,0.07);
+
+                i.flaticon-quotation {
+                    font-size: 40px;
+                    color: #515151;
+                }
+                p {
+                    margin: 22px 0px;
+                }
+                .reviews {
+                    position: relative;
+                    margin-bottom: 20px;
+
+                    i{
+                        color: #FFC107;
+
+                        &:last-child{
+                            color: #ACACAC;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .testimonial-slide2{
+        position: relative;
+
+        button.owl-prev {
+            right: 8%;
+            top: -35%;
+            position: absolute;
+            font-size: 30px !important;
+            padding: 6px 20px !important;
+            border-radius: 22px;
+            color: $color6 !important;
+            transition: .3s ease;
+
+            &:hover{
+            background: $color2 !important;
+            color: $color1 !important;
+
+            }
+        }
+
+        button.owl-next {
+            position: absolute;
+            font-size: 30px !important;
+            right: 2%;
+            top: -35%;
+            transition: .3s ease;
+            padding: 6px 20px !important;
+            border-radius: 22px;
+            color: $color6 !important;
+
+            &:hover{
+                
+                background: $color2 !important;
+                color: $color1 !important;
+                
+                }
+        }
+        .client-feedback {
+            position: relative;
+            display: inline-flex;
+            padding: 0px 2px;
+
+
+            .cf-img {
+                position: relative;
+
+                img{
+                    max-width: unset;
+                    width: auto;
+                }
+            }
+
+            .cf-text {
+
+                position: relative;
+                padding: 55px;
+                height: calc(100% - 75%);
+                margin-top: auto;
+                -webkit-box-shadow: 20px 30px 60px 0px rgba(0,0,1,0.05);
+                -moz-box-shadow: 20px 30px 60px 0px rgba(0,0,1,0.05);
+                box-shadow: 20px 30px 60px 0px rgba(0,0,1,0.05);
+
+                i.flaticon-quotation {
+                    font-size: 40px;
+                    color: #515151;
+                }
+                p {
+                    margin: 22px 0px;
+                }
+                .reviews {
+                    position: relative;
+                    margin-bottom: 20px;
+
+                    i{
+                        color: #FFC107;
+
+                        &:last-child{
+                            color: #ACACAC;
+                        }
+                    }
+                }
+            }
+        }
+
+       
+    }
+}
+
+.testimonial.v2 {
+    position: relative;
+    background: #F2F2F2;
+    padding: 140px 0;
+}
+/*===================Testimonial style======================*/
+
+/*======================FAQ Style Start==================*/
+
+.faq {
+    position: relative;
+    margin-top: 140px;
+    background: #ECFFFF;
+    padding: 140px 0px;
+    overflow: hidden;
+
+    h2 {
+        margin-bottom: 50px;
+    }
+    .card{
+
+        border-radius: 0;
+        margin-bottom: 25px;
+        background-color: rgb(255, 255, 255);-webkit-box-shadow: 10px 30px 50px 0px rgba(0,0,1,0.05);
+        -moz-box-shadow: 10px 30px 50px 0px rgba(0,0,1,0.05);
+        box-shadow: 10px 30px 50px 0px rgba(0,0,1,0.05);
+        text-align: left;
+        border: 0 !important;
+
+        .card-header{
+            position: relative;
+            border-radius: 0;
+            border-bottom: 0;
+            background-color: rgb(255, 255, 255);
+
+    
+         .accordion-toggle.collapsed {
+             font-size: 18px;
+             color: $color7;
+             font-family: $primaryFont;
+             &:hover{
+                 color: $color7;
+             }
+    
+             .fa-chevron-up{
+                display: none;
+               
+            }
+            .fa-chevron-down{
+                display: block;
+                position: absolute;
+                right: 5px;
+                font-size: 20px;
+                top: 20px;
+                color: $color7;
+    
+            }
+    
+            }
+             .accordion-toggle {
+                 font-size: 18px;
+                 color: $color7;
+                 font-family: $primaryFont;
+                 &:hover{
+                    color: $color7;
+                }
+            
+                .fa-chevron-down{
+                    display: none;
+            }
+
+            .fa-chevron-up{
+                position: absolute;
+                right: 5px;
+                font-size: 20px;
+                top: 20px;
+                color: $color3;
+            }
+    
+    
+            }
+    
+            
+        }
+    
+        .card-block {
+            padding: 0px 20px;
+            background-color: rgb(255, 255, 255);
+    
+            p{
+                font-size: 14px;
+                padding-bottom: 20px;
+                line-height: 24px;
+            }
+        }
+     } 
+     
+     .video2 {
+        position: relative;
+        padding-left: 30px;
+        width: 130%;
+       a {
+            position: absolute;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            top: 45%;
+            left: 50%;
+            background: $color1;
+            color: $color3;
+            font-size: 20px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: -6px;
+                top: -6px;
+                height: 120%;
+                width: 120%;
+                opacity: 0;
+                border-radius: 50%;
+                border: 1px solid $color1;
+                -webkit-animation: spin2 1000ms linear infinite;
+                -o-animation: spin2 1000ms linear infinite;
+                animation: spin2 1000ms linear infinite;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                border-radius: 50%;
+                border: 10px solid $color1;
+                -webkit-animation: spin2 1000ms linear infinite;
+                -o-animation: spin2 1000ms linear infinite;
+                animation: spin2 1000ms linear infinite;
+            }
+        }
+    }
+
+
+}
+
+
+
+
+.cleaning-faq {
+    text-align: center;
+    margin-top: 140px;
+
+    h2{
+        margin-bottom: 50px;
+        font-weight: 500;
+    }
+
+    .card{
+
+        border-radius: 0;
+        margin-bottom: 25px;
+        background-color: rgb(255, 255, 255);
+        text-align: left;
+        padding: 12px 20px;
+        -webkit-box-shadow: 10px 30px 50px 0px rgba(0,0,1,0.05);
+-moz-box-shadow: 10px 30px 50px 0px rgba(0,0,1,0.05);
+box-shadow: 10px 30px 50px 0px rgba(0,0,1,0.05);
+
+        .card-header{
+            position: relative;
+            border-radius: 0;
+            border-bottom: 0;
+            font-weight: 500;
+            background-color: rgb(255, 255, 255);
+
+    
+         .accordion-toggle.collapsed {
+             font-size: 30px;
+             color: $color7;
+             font-weight: 500;
+             font-family: $primaryFont;
+             &:hover{
+                 color: $color7;
+             }
+    
+             .flaticon-up-arrow{
+                display: none;
+               
+            }
+            .flaticon-down-arrow{
+                display: block;
+                position: absolute;
+                right: 5px;
+                font-size: 20px;
+                top: 12px;
+                color: $color7;
+    
+            }
+    
+            }
+             .accordion-toggle {
+                 font-size: 30px;
+                 color: $color7;
+                 font-family: $primaryFont;
+                 &:hover{
+                    color: $color7;
+                }
+            
+                .flaticon-down-arrow{
+                    display: none;
+            }
+
+            .flaticon-up-arrow{
+
+                position: absolute;
+                right: 5px;
+                font-size: 20px;
+                top: 12px;
+                color: $color3;
+            }
+    
+    
+            }
+    
+            
+        }
+    
+        .card-block {
+            padding: 0px 20px;
+            background-color: rgb(255, 255, 255);
+    
+            p{
+                font-size: 16px;
+                padding-bottom: 20px;
+                line-height: 24px;
+            }
+        }
+     } 
+
+}
+/*======================FAQ Style End==================*/
+
+
+/*=======================Sponsor Style Start================*/
+
+.sponsor {
+    position: relative;
+    margin: 140px 0;
+
+    .single-sponsor {
+        position: relative;
+
+        img{
+            max-width: unset;
+            width: auto;
+        }
+
+    }
+}
+
+/*=======================Sponsor Style End================*/

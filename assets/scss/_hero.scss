@@ -1,0 +1,311 @@
+/*==============================Hero Area Style===================*/
+.hero-area {
+
+    position: relative;
+    background: url(../img/hero/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 0 0px;
+    overflow: hidden;
+
+    .hero-content {
+
+        position: relative;
+
+        h1{
+            color: $color1;
+        }
+        p{
+            position: relative;
+            margin: 25px 0;
+            color: #FFFFFF;
+            width: 75%;
+        }
+
+        .hero-links {
+            position: relative;
+            display: inline-flex;
+            width: 100%;
+            margin-top: 20px;
+            align-items: center;
+
+            .single-link {
+                position: relative;
+                width: 240px;
+
+                a{
+                    position: relative;
+                        color: $color1;
+                        i{
+                           transition: .3s ease;
+                        }
+
+                        &:last-child{
+                          position: relative;
+
+                          &:hover{
+
+                              i{
+                                  padding-left: 5px;
+                              }
+                          }
+                        }
+                }
+          
+                .btn-2{
+                    position: relative;
+                    color: $color3;
+
+        
+                    &:hover{
+                        color: $color2;
+        
+                        i{
+                            padding-left: 5px;
+                        }
+                    }
+                    i{
+                        transition: .3s ease;
+                    }
+        
+                }
+
+            }
+        }
+      
+
+    }
+
+    .hero-img {
+        position: relative;
+        width: calc(100% + 20%);
+        margin-left: 15%;
+    }
+
+}
+
+.hero-2{
+    position: relative;
+    background: url(../img/hero/hero2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+
+    .hero-content {
+
+        padding: 260px 0;
+
+        p{
+            margin: 40px 0;
+            width: 65%;
+        }
+
+
+    .eastimate {
+        position: relative;
+        padding: 26px 30px;
+        background: #fff;
+
+        form {
+
+            display: inline-flex;
+            width: 100%;
+
+            .form-group {
+                margin-bottom: 0;
+                margin-right: 25px;
+                width: 40%;
+
+                .form-control {
+                    position: relative;
+                    padding: 0 17px;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    box-shadow: none;
+                    height: 56px;
+                    font-family: $secondaryFont;
+                    margin: 5px 0px;
+
+                    &:focus{
+                        border-color: $color2 !important;
+                    }
+                }
+            }
+
+            .btn-1{
+                background: $color2;
+                padding: 14px 5px;
+            }
+        }
+    }
+
+}
+
+
+}
+
+.hero-3{
+    padding-bottom: 140px;
+    background: #ECFFFF;
+    
+    &::before{
+
+        content: '';
+        background: url(../img/bg-element/hero-3bg.png);
+        position: absolute;
+        right: 0;
+        top: 10%;
+        width: 54%;
+        height: 90%;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    
+    .hero-content {
+        position: relative;
+
+        h1{
+            color: #001F53;
+            font-size: 55px;
+            line-height: 65px;
+            font-weight: 700;
+        }
+        p{
+            color: $color7;
+            width: 90%;
+        }
+
+  .hero-links {
+
+    .single-link {
+        width: 200px;
+
+        .btn-2{
+             background: $color3;
+             color: $color1 !important;
+
+             &:hover{
+                 
+             background: $color2;
+
+             }
+        }
+
+        a{
+            position: relative;
+            transition: .3s ease;
+
+
+            &:last-child{
+
+                color: $color3;
+
+                &:hover{
+                    color: $color2;
+
+                    i{
+                        padding-left: 0;
+                       
+                    }
+
+                }
+            }
+
+            i{
+                padding-right: 5px;
+
+               
+            }
+        }
+  }
+
+
+
+    }
+}
+
+.hero-img {
+    position: relative;
+    width: 140%;
+    margin: 0;
+}
+
+
+}
+
+
+.inner-hero {
+
+    position: relative;
+    background: url(../img/hero/inner-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: #0f1d3461;
+        top: 0;
+        left: 0;
+
+    }
+
+
+    .hero-content{
+
+        position: relative;
+        padding: 280px 0 170px;
+        text-align: center;
+
+        h1{
+            color: $color1;
+            
+        }
+
+        ul{
+            position: relative;
+            margin-top: 40px;
+
+            li{
+                font-size: 18px;
+                font-weight: 400;
+                color: $color1;
+                padding: 0px 10px;
+
+                a{
+                    position: relative;
+                    color: $color1;
+                    font-size: 18px;
+                    font-family: $primaryFont;
+                    font-weight: 400;
+
+                    &::before{
+
+                        position: absolute;
+                        content: '';
+                        width: 2px;
+                        height: 12px;
+                        top: 5px;
+                        right: -13px;
+                        background: $color1;
+
+                    }
+
+                }
+            }
+        }
+
+
+
+
+    }
+
+}
+/*==============================Hero Area Style===================*/

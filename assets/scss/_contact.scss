@@ -1,0 +1,156 @@
+/*========================Contact Area Start============================*/
+
+.contact {
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+
+    h2{
+        margin-bottom: 50px;
+    }
+
+    .single-contact{
+
+        position: relative;
+        background: $color1;
+        border-radius: 5px;
+        padding: 50px 0;
+        -webkit-box-shadow: 10px 10px 50px 0px rgba(0,0,1,0.05);
+        -moz-box-shadow: 10px 10px 50px 0px rgba(0,0,1,0.05);
+        box-shadow: 10px 10px 50px 0px rgba(0,0,1,0.05);
+
+        .con-icon {
+            position: relative;
+            height: 98px;
+            width: 98px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: #048D8D;
+
+            i{
+                font-size: 45px;
+                color: #fff;
+            }
+        }
+
+        .con-info {
+            position: relative;
+            margin-top: 25px;
+
+            p{
+                margin: 5px auto;
+            }
+        }
+
+    }
+
+
+
+}
+
+/*========================Contact Area End============================*/
+
+/*=======================Google Map===========================*/
+
+.g-map {
+
+    position: relative;
+    margin-top: 140px;
+
+    .map {
+        position: relative;
+        width: 100%;
+        height: 700px;
+        margin-top: 10px;
+
+        div#googleMap {
+            height: 100%;
+            width: 100%;
+            img{
+                max-width: unset;
+                width: auto;
+            }
+        }
+    }
+}
+
+/*=======================Google Map===========================*/
+
+
+/*=========================Contact Information====================*/
+
+
+.contact-info{
+    position: relative;
+    margin-top: -140px;
+
+    .information {
+        position: relative;
+        text-align: left;
+        background: $color1;
+        -webkit-box-shadow: 10px 40px 70px 0px rgba(67,19,0,0.05);
+        -moz-box-shadow: 10px 40px 70px 0px rgba(67,19,0,0.05);
+        box-shadow: 10px 40px 70px 0px rgba(67,19,0,0.05);
+
+        form{
+
+        padding: 75px 90px;
+
+        .form-group{
+            position: relative;
+            margin-bottom: 40px;
+            
+            label {
+                margin-bottom: 15px;
+                font-size: 18px;
+                font-family: $primaryFont;
+            }
+    
+            .form-control {
+                height: 70px;
+                padding: 5px 25px;
+                font-size: 16px;
+                color: #515151;
+                background-color: #F2F2F2;
+                border: 0;
+                border-radius: 5px;
+                font-family: $secondaryFont;
+               
+
+            }
+            textarea.form-control {
+                height: auto;
+                padding-top: 20px;
+            }
+
+        }
+
+        }
+
+       
+
+        .btn-1{
+
+            background: $color4;
+            margin-left: 15px;
+            border: 0;
+
+            i{
+                transition: all 0.3s ease 0s;
+            }
+
+            &:hover{
+
+                i{
+                    padding-left: 5px;
+                }
+            }
+
+        }
+
+    
+    }
+}
+/*=========================Contact Information====================*/
